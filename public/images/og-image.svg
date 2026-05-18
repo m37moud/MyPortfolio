@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#02060E"/>
+  <circle cx="921" cy="115" r="183" fill="url(#a)" fill-opacity=".28"/>
+  <circle cx="1056" cy="535" r="208" fill="url(#b)" fill-opacity=".18"/>
+  <rect x="64" y="64" width="1072" height="502" rx="28" fill="#06111F" stroke="#15325C"/>
+  <text x="112" y="188" fill="white" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600">Mahmoud Aly</text>
+  <text x="112" y="286" fill="white" font-family="Space Grotesk, Arial, sans-serif" font-size="84" font-weight="700">Android Developer</text>
+  <text x="112" y="362" fill="#5A95F5" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="600">Kotlin · Jetpack Compose · Backend-integrated systems</text>
+  <text x="112" y="434" fill="rgba(255,255,255,0.78)" font-family="Inter, Arial, sans-serif" font-size="28">5+ years building scalable, user-friendly mobile apps.</text>
+  <rect x="112" y="474" width="222" height="54" rx="15" fill="#0356C5"/>
+  <text x="153" y="509" fill="white" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">mahmoudaly.dev</text>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(921 115) rotate(90) scale(183)">
+      <stop stop-color="#3D88FF"/>
+      <stop offset="1" stop-color="#3D88FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1056 535) rotate(90) scale(208)">
+      <stop stop-color="#1F4D9A"/>
+      <stop offset="1" stop-color="#1F4D9A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

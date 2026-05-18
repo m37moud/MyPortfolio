@@ -1,0 +1,56 @@
+Mahmoud Aly
+Android Developer
+
+Summary
+Android Developer with 5+ years of experience building scalable, user-friendly
+mobile applications using Kotlin, Jetpack Compose, modern Android architecture,
+and backend-integrated systems.
+
+Core Strengths
+- Kotlin-first Android development
+- Jetpack Compose UI engineering
+- Clean and maintainable architecture
+- Backend integration and API-driven apps
+- Cross-platform exposure through Compose Multiplatform, Flutter, and Kotlin Multiplatform
+- Performance, stability, and modernization of existing codebases
+
+Experience
+
+Ceramica Mayorca Co.
+Android Developer | Jan 2024 - Present
+- Designed and developed a multi-application ecosystem for product display and business operations.
+- Implemented MVVM-based architecture to improve maintainability and scalability.
+- Built backend APIs with Ktor and MySQL for mobile-server integration.
+- Delivered Android and iOS experiences through Compose Multiplatform.
+- Deployed backend services using Docker, Ubuntu VPS, Nginx, and SSL.
+
+Mafateeh IT & Media Solutions
+Android Developer | 2023 - 2024 | Remote
+- Refactored legacy Android codebases to improve maintainability and stability.
+- Optimized media streaming and background services for smoother playback.
+- Improved UI consistency and accessibility across radio streaming apps.
+- Published stable Google Play releases while staying aligned with Android SDK requirements.
+
+Freelancer
+Android Developer | 2020 - 2023 | Remote
+- Delivered Android applications for clients across multiple industries.
+- Built end-to-end mobile solutions using Kotlin and Jetpack Compose.
+- Gathered requirements directly from clients and translated them into scalable product features.
+- Worked on both new development and modernization of existing apps.
+
+Selected Projects
+- Ceramic Mayorca
+- Store Management Android App
+- Radio Streaming Apps Suite
+- StoriesForKids & Admin App
+- HR System - Kotlin KMP Version
+
+Education
+Beni Suef University
+Bachelor's Degree
+Graduated August 2012
+
+Contact
+Email: hello@mahmoudaly.dev
+GitHub: https://github.com/m37moud
+LinkedIn: Add your LinkedIn profile URL before launch

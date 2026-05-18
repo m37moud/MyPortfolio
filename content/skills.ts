@@ -1,0 +1,88 @@
+import type { SkillGroup } from "@/types/skills";
+
+export const skillGroups: SkillGroup[] = [
+  {
+    title: "Android Development",
+    items: [
+      "Kotlin",
+      "Jetpack Compose",
+      "Android Jetpack Components",
+      "Material Design",
+      "XML legacy layouts",
+      "View Binding",
+      "Android Services",
+      "Google Play Console",
+    ],
+  },
+  {
+    title: "Architecture and Engineering",
+    items: [
+      "Clean Architecture",
+      "MVVM",
+      "MVI",
+      "Multi-Module Architecture",
+      "OOP",
+      "SOLID Principles",
+      "Design Patterns",
+    ],
+  },
+  {
+    title: "Backend and APIs",
+    items: [
+      "Ktor",
+      "Spring Boot",
+      "MySQL",
+      "Flyway",
+      "RESTful APIs",
+      "JSON",
+      "JWT Authentication",
+      "Firebase Authentication",
+      "Firebase Realtime Database",
+      "Firebase Analytics",
+      "Google Cloud Services",
+    ],
+  },
+  {
+    title: "Cross-Platform and Libraries",
+    items: [
+      "Flutter",
+      "Kotlin Multiplatform",
+      "Compose Multiplatform",
+      "Retrofit",
+      "Coroutines",
+      "Hilt",
+      "Koin",
+      "Dagger2",
+      "SQLDelight",
+      "Firebase SDK",
+    ],
+  },
+  {
+    title: "Tools and DevOps",
+    items: [
+      "Git",
+      "Android Studio",
+      "Gradle",
+      "Product Flavors",
+      "Docker",
+      "Nginx",
+      "Ubuntu",
+      "macOS",
+      "App Store Connect",
+    ],
+  },
+  {
+    title: "Languages and Domain Strengths",
+    items: [
+      "Java",
+      "Python",
+      "Dart",
+      "HTML",
+      "Performance optimization",
+      "Legacy code refactoring",
+      "Release management",
+      "Cloud-connected mobile apps",
+      "Payment integration",
+    ],
+  },
+];
