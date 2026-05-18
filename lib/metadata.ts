@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 
 import { siteContent } from "@/content/site";
+import { getResolvedSiteUrl } from "@/lib/site-url";
 
-const siteUrl = new URL(siteContent.siteUrl);
+const siteUrl = getResolvedSiteUrl();
 
 export const baseMetadata: Metadata = {
   metadataBase: siteUrl,
@@ -42,7 +43,7 @@ export const personJsonLd = {
   "@type": "Person",
   name: siteContent.hero.name,
   jobTitle: siteContent.hero.title,
-  url: siteContent.siteUrl,
+  url: siteUrl.toString(),
   email: `mailto:${siteContent.contact.email}`,
   sameAs: [
     siteContent.contact.linkedIn,

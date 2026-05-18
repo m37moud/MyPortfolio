@@ -2,10 +2,10 @@
 
 :root {
   color-scheme: dark;
-  --font-body:
-    "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
-  --font-heading:
-    "Space Grotesk", "Avenir Next Condensed", "Trebuchet MS", sans-serif;
+  --font-body-fallback:
+    "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-heading-fallback:
+    "Avenir Next Condensed", "Trebuchet MS", sans-serif;
 }
 
 html {
@@ -13,11 +13,11 @@ html {
 }
 
 body {
-  font-family: var(--font-body), sans-serif;
+  font-family: var(--font-body), var(--font-body-fallback), sans-serif;
 }
 
 @utility font-heading {
-  font-family: var(--font-heading), sans-serif;
+  font-family: var(--font-heading), var(--font-heading-fallback), sans-serif;
 }
 
 @utility bg-site {
