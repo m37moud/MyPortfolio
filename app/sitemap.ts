@@ -1,11 +1,13 @@
 import type { MetadataRoute } from "next";
 
-import { siteContent } from "@/content/site";
+import { getResolvedSiteUrl } from "@/lib/site-url";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const siteUrl = getResolvedSiteUrl();
+
   return [
     {
-      url: siteContent.siteUrl,
+      url: siteUrl.toString(),
       changeFrequency: "monthly",
       priority: 1,
     },
