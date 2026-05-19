@@ -26,6 +26,23 @@ export const hero: HeroContent = {
     "Android Developer with 5+ years of experience building scalable, user-friendly mobile apps using Kotlin, Jetpack Compose, and backend-integrated architecture.",
   supportingText:
     "I build Android applications, modernize legacy codebases, and deliver reliable mobile experiences backed by clean architecture and practical backend knowledge.",
+  expertiseChips: [
+    "Kotlin",
+    "Jetpack Compose",
+    "Clean Architecture",
+    "Backend Integration",
+  ],
+  featuredOutcome: {
+    label: "Delivery impact",
+    title: "Shipped reliable Android features across new builds and legacy modernization.",
+    detail:
+      "Focused on maintainable architecture, practical API integration, and smoother release readiness for product teams.",
+  },
+  recentActivity: [
+    { label: "Modernized legacy modules for cleaner delivery workflows", meta: "Architecture" },
+    { label: "Integrated backend-driven Android features with reliable state handling", meta: "API integration" },
+    { label: "Supported release builds and post-merge stabilization work", meta: "Delivery" },
+  ],
   actions: [
     { label: "View Projects", href: "#projects", variant: "primary" },
     {
@@ -78,8 +95,8 @@ export const aboutSection: SectionIntro = {
 export const about: AboutContent = {
   headline: aboutSection.headline,
   paragraphs: [
-    "I'm an Android Developer with 5+ years of experience building user-friendly mobile applications using Kotlin and Jetpack Compose. My work spans new product development, legacy app improvement, backend API integration, and cross-platform delivery through tools like Compose Multiplatform, Flutter, and Kotlin Multiplatform.",
-    "I focus on maintainable architecture, reliable performance, and building products that are practical for both users and teams.",
+    "I do my best work in products that need both delivery speed and technical cleanup, whether that means shaping a new Android feature, untangling legacy modules, or making backend-driven flows easier to maintain.",
+    "The goal is consistent: help teams ship with confidence while keeping the codebase understandable, scalable, and practical for the people building on it next.",
   ],
   highlightCards: [
     {
@@ -155,6 +172,7 @@ export const contact: ContactContent = {
   github: "https://github.com/m37moud",
   phone: "+20 114 858 8723",
   availabilityNote: "Open to full-time and freelance opportunities.",
+  responseNote: "Best for hiring, freelance work, and collaboration. Usually replies within 1-2 days.",
 };
 
 export const footer: FooterContent = {

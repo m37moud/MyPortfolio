@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { projects } from "@/content/projects";
@@ -20,11 +21,27 @@ export function ProjectsSection() {
               <Reveal
                 key={project.slug}
                 as="article"
-                className="grid gap-6 rounded-[28px] border border-white/10 bg-panel p-5 shadow-panel lg:grid-cols-[200px_1fr]"
+                className="grid gap-6 rounded-[28px] border border-white/10 bg-panel p-5 shadow-panel lg:grid-cols-[minmax(300px,360px)_1fr] lg:items-start"
               >
                 <div
-                  className={`min-h-[180px] rounded-[20px] border border-white/8 bg-linear-135 ${project.visualClass} relative overflow-hidden`}
+                  className={`relative aspect-[4/3] w-full rounded-[20px] border border-white/8 bg-linear-135 ${project.visualClass} overflow-hidden`}
                 >
+                  {project.image ? (
+                    <>
+                      <div className="absolute inset-0 p-3 sm:p-4">
+                        <div className="relative h-full w-full overflow-hidden rounded-[16px] border border-white/12 bg-slate-950/20 shadow-[0_18px_40px_rgba(0,0,0,0.25)] backdrop-blur-[2px]">
+                          <Image
+                            src={project.image.src}
+                            alt={project.image.alt}
+                            fill
+                            sizes="(min-width: 1024px) 360px, (min-width: 640px) 80vw, 100vw"
+                            className="object-cover object-center"
+                          />
+                          <div className="absolute inset-0 bg-linear-to-t from-slate-950/35 via-transparent to-white/8" />
+                        </div>
+                      </div>
+                    </>
+                  ) : null}
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(255,255,255,0.22),transparent_25%)]" />
                 </div>
                 <div>
