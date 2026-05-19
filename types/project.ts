@@ -4,6 +4,11 @@ export interface ProjectLink {
   type: "github" | "google-play" | "app-store" | "demo" | "other";
 }
 
+export interface ProjectImage {
+  src: string;
+  alt: string;
+}
+
 export interface ProjectCard {
   slug: string;
   name: string;
@@ -11,6 +16,7 @@ export interface ProjectCard {
   summary: string;
   role: string;
   visualClass: string;
+  image?: ProjectImage;
   scope: string[];
   technologies: string[];
   highlights: string[];

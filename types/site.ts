@@ -15,6 +15,17 @@ export interface HeroAction {
   download?: boolean;
 }
 
+export interface HeroFeaturedOutcome {
+  label: string;
+  title: string;
+  detail: string;
+}
+
+export interface HeroRecentActivityItem {
+  label: string;
+  meta: string;
+}
+
 export interface HeroContent {
   name: string;
   title: string;
@@ -22,6 +33,9 @@ export interface HeroContent {
   supportingText: string;
   actions: HeroAction[];
   socialLinks: LinkItem[];
+  expertiseChips: string[];
+  featuredOutcome: HeroFeaturedOutcome;
+  recentActivity: HeroRecentActivityItem[];
 }
 
 export interface DeviceAgendaItem {
@@ -80,6 +94,7 @@ export interface ContactContent {
   github: string;
   phone?: string;
   availabilityNote: string;
+  responseNote?: string;
 }
 
 export interface SeoContent {

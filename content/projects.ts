@@ -10,6 +10,10 @@ export const projects: ProjectCard[] = [
       "Ceramic Mayorca is an integrated system built to showcase and manage tile products efficiently. The delivery scope included two customer applications for Android and iOS, a desktop admin panel, and a backend system that supports product data, authentication, and operational workflows.",
     role: "Android Developer",
     visualClass: "from-blue-600 via-blue-500/40 to-slate-950",
+    image: {
+      src: "/images/projects/ceramic-mayorca.png",
+      alt: "Ceramic Mayorca app showcase with premium tile browsing screens and product branding.",
+    },
     scope: [
       "Two customer apps for Android and iOS",
       "Desktop admin panel",
@@ -56,6 +60,10 @@ export const projects: ProjectCard[] = [
       "This Android app was built to support store inventory workflows by scanning barcode and BRCode items through the device camera, storing records locally, and exporting stock reports in spreadsheet-friendly form.",
     role: "Android Developer",
     visualClass: "from-slate-500/60 via-slate-700 to-slate-950",
+    image: {
+      src: "/images/projects/store-management-android-app.png",
+      alt: "Store Management Android app cover with inventory, reporting, and stock operations screens.",
+    },
     scope: [
       "Inventory scanning workflow",
       "Local data storage",
@@ -86,6 +94,10 @@ export const projects: ProjectCard[] = [
       "This suite included Watar FM, Mood FM, and Beat FM, three Android radio streaming apps centered on live audio playback, background listening, and better performance in legacy codebases that needed modernization and stability work.",
     role: "Android Developer",
     visualClass: "from-cyan-500/30 via-slate-800 to-slate-950",
+    image: {
+      src: "/images/projects/radio-streaming-apps-suite.png",
+      alt: "Radio streaming apps suite cover featuring Watar FM playback and live audio interface screens.",
+    },
     scope: [
       "Three Android radio apps",
       "Playback optimization",
@@ -133,6 +145,10 @@ export const projects: ProjectCard[] = [
       "StoriesForKids combined bilingual Arabic-English educational content, animations, and sound effects in a child-focused Android experience, alongside an admin app used to manage stories, media, and real-time notifications.",
     role: "Android Developer",
     visualClass: "from-emerald-400/40 via-orange-300/25 to-slate-950",
+    image: {
+      src: "/images/projects/stories-for-kids-admin-app.png",
+      alt: "StoriesForKids educational app cover with playful reading screens and child-friendly visuals.",
+    },
     scope: [
       "Main children-focused Android app",
       "Admin app for content management",
@@ -172,6 +188,10 @@ export const projects: ProjectCard[] = [
       "This Kotlin Multiplatform HR system was designed to automate employee attendance and reporting workflows while exploring cross-platform application structure and a desktop experience built with Compose.",
     role: "Android Developer",
     visualClass: "from-emerald-500/50 via-teal-500/20 to-slate-950",
+    image: {
+      src: "/images/projects/hr-system-kotlin-kmp-version.png",
+      alt: "HRSystem desktop application cover with human resources dashboard and workforce management interface.",
+    },
     scope: [
       "Attendance workflows",
       "Reporting workflows",
