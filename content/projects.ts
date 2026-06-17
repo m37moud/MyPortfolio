@@ -171,9 +171,9 @@ export const projects: ProjectCard[] = [
     ],
     links: [
       {
-        label: "GitHub",
-        href: "https://github.com/m37moud/StoriesForKids",
-        type: "github",
+        label: "Google Play",
+        href: "https://play.google.com/store/apps/details?id=com.m37moud.responsivestories",
+        type: "google-play",
       },
     ],
     featured: true,
